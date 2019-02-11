@@ -1,5 +1,5 @@
 {% set name = "multio" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e8bce12aa8d2e076d96f4c4b6bfb70c01e0e0af9892f9ffc4ec868854e1b877e
+  sha256: fdcd9bd48d053da9f44b1ca56c2f7cf0902d4eb76b41cf16b684166d7180f79f
 
 build:
   noarch: python
